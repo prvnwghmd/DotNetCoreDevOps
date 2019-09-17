@@ -12,7 +12,7 @@ namespace DotNetCoreDevOpsTest
         public void checkById()
         {
             var result = obj.Get(1);
-            Assert.Equal("valu", result.Value);
+            Assert.Equal("value", result.Value);
 
 
 
