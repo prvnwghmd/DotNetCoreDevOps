@@ -14,7 +14,7 @@ namespace DotNetCoreDevOps.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "pravin", "pravin" };
+            return new string[] { "pravin", "waghmode" };
         }
 
         // GET api/values/5
