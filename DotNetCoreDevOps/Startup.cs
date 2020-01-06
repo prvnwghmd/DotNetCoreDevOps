@@ -42,6 +42,7 @@ namespace DotNetCoreDevOps
             }
 
            // app.UseHttpsRedirection();
+
             app.UseMvc();
         }
     }
