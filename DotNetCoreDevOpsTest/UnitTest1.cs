@@ -14,10 +14,6 @@ namespace DotNetCoreDevOpsTest
             var result = obj.Get(1);
             Assert.Equal("value", result.Value);
 
-
-
-
-
         }
     }
 }
