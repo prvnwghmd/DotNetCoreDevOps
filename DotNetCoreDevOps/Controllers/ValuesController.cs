@@ -21,7 +21,7 @@ namespace DotNetCoreDevOps.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value1";
+            return "value";
         }
 
         // POST api/values
